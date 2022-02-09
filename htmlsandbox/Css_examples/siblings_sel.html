@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Child Selector</title>
+    <style>
+        h1 ~ p {
+            color:peru;
+        }
+        h1 ~ aside {
+            width:50%;
+        }
+    </style>
+   </head>
+ <body>
+    <article>
+        <h1>Parent-child Selector</h1>
+        <p>Select theParagraphs in the article,not in the aside</p>
+        
+        <aside>
+         <h2> An Aside article</h2>
+         <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        It has survived not only five centuries, 
+       <em
+       ><strong
+       >but also the leap into electronic typesetting,remaining essentially unchanged.</strong 
+       ></em
+       >
+     </p>
+    </aside>
+     <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical 
+        Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at 
+        Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+        Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+        undoubtable source.
+     </p>
+        </aside>
+    </article>
+</body>
+</html>

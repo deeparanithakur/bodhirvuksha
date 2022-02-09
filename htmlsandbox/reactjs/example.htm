@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = 'result'>
+        <button onclick="addNewElement()">Click Here</button>
+        <script>
+            function addNewElement() {
+                let h2Element = document.createElement('H2');
+                h2Element.innerHTML = 'Welcome I am created by Javascript Code';
+                document.getElementById('result').append(h2Element);
+            }
+
+        </script>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("regiform.css");
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <h1>REGISTRATION FORM</h1>
+        <hr>
+        <form class ="reg-1" name="registrationform" action=""
+        onsubmit ="return formValidation()" method ="post">
+
+        <p>Name: <input type="text" class="reg-2"
+                    size="65" name ="Name"/></p>
+            <br/>
+
+        <p>Address: <input type="text" class="reg-2"
+                    size="65" name ="Address"/></p>
+            <br/>
+
+       <p>E-mail: <input type="text" class="reg-2"
+                   size="65" name ="E-mail"/></p>
+            <br/>
+
+        <p> Password: <input type="text" class="reg-2"
+                   size="65" name ="Password"/></p>
+            <br/>
+         <p>Phone number <input type="text" class="reg-2"
+                size="65" name="Phone no."/></p>
+             <br/>
+
+
+
+        <p class ="select">
+            SELECT YOUR COURSES
+            <select type="text" class="reg-4" value="" name="Course"> 
+                <option>B.SC</option>
+                <option>BCA</option>
+                <option>BBM</option>
+                <option>BBA</option>
+                <option>B.COM</option>
+            </select>
+        </p>
+        <br/>
+        <br/>
+        <p>Comments:<textarea class ="textarea" cols="55"
+           name="Comment"></textarea></p>
+
+           <p>
+               <input type = "submit"
+               value="Submit" class="submit" name="Submit"/>
+               <input type = "reset"
+               value="Reset" class="reset" name="Reset"/>
+            </p>
+    </form>
+    </div>
+</body>
+</html>

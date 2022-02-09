@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width :100%;
+    height:100%;
+    background-color: silver;
+}
+
+.container{
+    background-color: "white";
+    text-align: center;
+    width: 50%;
+    margin-left: 50vh;
+    height: 700px;
+}
+
+.reg-1{
+    margin-left: 6px;
+    margin-top: 40px;
+}
+
+.reg-1 p {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.reg-2{
+    padding: 10px;
+}
+
+
+.reg-4{
+    font-size:12px;
+    padding: 10px;
+}
+
+.submit{
+    padding :10px 30px;
+    background: blue;
+    border-radius: 5px;
+    color:white;
+}
+
+.reset{
+
+    padding: 10px 30px;
+    background: red;
+    border-radius: 5px;
+    color:white;
+}

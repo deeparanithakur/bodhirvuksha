@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+header{
+    background-color: gainsboro;
+    height:140px;
+    text-align:center;
+}
+
+header h2{
+    font-size: 50px;
+}
+header h4{
+    padding:20px 30px;
+}
+nav {
+    margin:10px 40px;
+}
+
+ .menu1{
+ margin-top: 10px ;
+ }
+
+ .menu1 ul {
+     background-color: aqua;
+     padding:10px 0px;
+
+ }
+
+ .menu1 ul li {
+     list-style:none;
+     display: inline-block;
+     padding: 10px;
+ }
+ .menu1 ul li a {
+     text-decoration: none;
+     padding:10px 20px;
+     color:white;
+    
+ }
+ .menu1 ul li a:hover{
+    background-color: blue;
+     
+ }
+
+ article  div {
+    background-color:rgba(128, 128, 128, 0.438);
+    height:200px;
+    width:600px;
+ }
+
+ p  image{
+      padding:10px;
+      
+      
+ }
+
+ .aside div  h1 {
+     float:left;
+     background-color: gainsboro;
+ }
+ footer{
+    
+    clear:both;
+    background-color: grey;
+     height:100px;
+     text-align:center;
+     color:#ffffff;
+ }
+
+ footer p{
+       padding:40px 0px;
+ }

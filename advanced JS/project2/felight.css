@@ -1,0 +1,43 @@
+* {
+     margin:0px;
+     padding:0px;
+}
+
+.logo { 
+     padding:5px;
+     margin-top: 5px;
+     margin-bottom:0px;
+     margin-right:0px;
+     margin-left:10px;
+     
+    }
+    
+nav {
+    margin:10px 40px;
+}
+nav ul {
+    
+}
+
+nav ul li{
+    list-style:none; 
+    display:inline; 
+}
+
+nav ul li a {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+    color:#666;
+    display:inline;
+   padding: 14px 16px;
+
+}
+nav ul li a:hover {
+    color:rgb(0, 106, 255);
+    
+}
+
+nav img {
+    float:right;
+}

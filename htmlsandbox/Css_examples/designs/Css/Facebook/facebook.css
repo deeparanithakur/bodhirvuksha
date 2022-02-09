@@ -1,0 +1,143 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family:"poppins";
+}
+body{
+    background: #ffffff;
+}
+
+.container{
+    width : 100%;
+    height: 100vh;
+}
+
+
+.container2{
+    background: white;
+    width: 450px;
+    margin-left: 70vh;
+    height: 580px;
+    border-radius:8px;
+    box-shadow: 0 2px 4px rgb(0,0,0,2);
+    margin-top:2px;
+}
+.row-img {
+    text-align: center;
+    padding: 20px;
+    color: blue;
+    font-size: 5px;
+}
+
+h1{
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom:15px;
+} 
+
+
+.inp{
+    border-radius:5px;
+    font-size:15px;
+    padding:8px 10px;
+    border:1px solid lightgrey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.inp1 {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px 120px;
+    border: 1px solid lightgrey;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.date{
+    text-align: left;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.date p {
+    color:#606770;
+    font-family: SFProText-Medium,Helvetica, Arial, sans-serif;
+    line-height: 10px;
+}
+
+.date1{
+    padding:2px;
+    float: left;
+    list-style: none;
+}
+
+.day1 {
+     padding: 10px 35px;
+     margin-left: 7px;
+     background: #fff;
+     border-radius: 5px;
+     border : 1px solid lightgray;
+}
+
+.radio{
+    background: white;
+    padding-left: 10px 30px;
+    margin-left: 7px;
+    border-radius: 5px;
+    border :1px solid lightgray;
+}
+
+.day2{
+
+    margin: 7px;
+    background: #fff;
+}
+
+.footer {
+    color: #777;
+    font-size: 2px;
+}
+
+.footer p {
+    text-align: left;
+    margin: 15px;
+    color: #777;
+    font-size: 11px;
+}
+
+.btn {
+    text-align: center;
+    padding: 6px 54px;
+    margin-left: 120px;
+
+
+background-color : #00a400;
+border: none;
+border-radius: 6px;
+box-shadow: none;
+color: #fff;
+font-size: 18px;
+font-weight: 600;
+height: 36px;
+overflow: hidden;
+
+text-shadow: none;
+}
+
+.last {
+    text-align : center;
+    padding : 10px 135px;
+
+    font-size: 12px;
+}
+
+.last a {
+    text-decoration: none;
+    font-size: 12px;
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;8');
+* {
+    margin:0;
+    padding:0;
+    font-family:"Poppins", sans-serif;
+}
+
+body {
+    background-color:pink ;
+}
+main {
+    width:90%;
+    margin:0px auto;
+    background-color: #ffffff;
+}
+header {
+    border-bottom:1px solid gainsboro;
+
+}
+
+header .logo{
+    float:left;
+    padding:20px 40px;
+    color: cornflowerblue;
+}
+
+header nav {
+    float:right;
+
+}
+.clear {
+    clear:both;
+}
+
+nav ul {
+    padding:30px 40px;
+}
+nav ul li {
+    list-style :none;
+    display:inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}.active {
+    color: cornflowerblue;
+
+}
+nav ul li a:hover{
+color:cornflowerblue;
+border-bottom: 1px solid cornflowerblue;
+}
+
+.America,
+.Asia,
+.Europe {
+    padding:20px 30px;
+}
+
+
+.Europe img {
+    float:left;
+    width:450px;
+    height:300px;
+}
+
+
+.Europe div {
+    background-color: cornflowerblue;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:800px;
+    padding:10px;
+}
+
+.Asia  div a {
+    display: inline-block;
+    padding:10px;
+    background-color:cornsilk;
+    text-decoration:none ;
+    color:#000000;
+    margin-top:5px;
+}
+
+
+
+.Europe div a {
+    display: inline-block;
+    padding:10px;
+    background-color:cornsilk;
+    text-decoration:none ;
+    color:#000000;
+    margin-top:5px;
+}
+.Asia  img{
+    float:right;
+    width:550px;
+    height:400px;
+    
+}
+
+.Asia div {
+    background-color: palevioletred;
+    color:#ffffff;
+    margin-top:5px;
+    margin-left:5px;
+    float:right;
+    width:296px;
+}
+
+
+
+.America img {
+    width:600px;
+    height:500px;
+}
+
+.America div  {
+    background-color: cornflowerblue;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:800px;
+    padding:10px;
+}
+
+.America div a {
+    display: inline-block;
+    padding:10px;
+    background-color:cornsilk;
+    text-decoration:none ;
+    color:#000000;
+    margin-top:5px;
+}
+
+footer{
+   background-color: #000000; 
+   height: 200px;
+
+}
+
+.logo2{
+    color: #ffffff;
+    font-size:50px;
+    float:left;
+    padding: 20px 80px;
+}
+
+footer div {
+    float:right;
+    color:#ffffff;
+    padding:20px 30px;
+    
+}
+
+footer div ul li {
+    list-style:none;
+    
+}
+
+footer div ul li a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+footer div ul li a:hover{
+    color: cornflowerblue;
+
+}

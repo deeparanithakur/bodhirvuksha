@@ -1,0 +1,109 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+nav {
+    margin : 10px 40px;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    list-style: none;
+    display:inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding : 10px;
+    color: #000000;
+}
+
+nav ul li a :hover {
+    color: orange;
+    border-bottom : 2px solid orange;
+}
+
+.menu1 {
+    margin-top: 10px;
+}
+
+.menu1 {
+    background-color:orange;
+}
+
+.menu1 ul li {
+    list-style :none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+}
+
+.menu1 ul li a:hover {
+    background-color: #ffffff;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.menu2 {
+    margin-top :10px;
+}
+
+.menu2 {
+    background-color:blue;
+    
+}
+
+
+.menu2 ul li {
+    display:inline-block;
+    list-style:none;
+    padding:10px;
+}
+
+.menu2 ul li a {
+    text-decoration:none;
+    padding:10px;
+    color:black;
+}
+
+.menu2 ul li a:hover {
+    background-color :#ffffff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.menu3 {
+    margin-top:10px;
+}
+
+.menu3 ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.menu3 ul li a {
+    text-decoration: none;
+    padding:10px;
+    color:10px;
+    color:black;
+}
+
+.menu3 ul li a:hover {
+    text-decoration: none;
+    background-color:red;
+    border :0px 10px 10px 0px ;
+}
